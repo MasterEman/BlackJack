@@ -46,11 +46,11 @@ public class BlackjackMain extends Application {
         Rectangle leftBG = new Rectangle(550, 560);
         leftBG.setArcWidth(50);
         leftBG.setArcHeight(50);
-        leftBG.setFill(Color.GREEN);
+        leftBG.setFill(Color.FORESTGREEN);
         Rectangle rightBG = new Rectangle(230, 560);
         rightBG.setArcWidth(50);
         rightBG.setArcHeight(50);
-        rightBG.setFill(Color.ORANGE);
+        rightBG.setFill(Color.GREY);
 
         VBox leftVBox = new VBox(50);
         leftVBox.setAlignment(Pos.TOP_CENTER);

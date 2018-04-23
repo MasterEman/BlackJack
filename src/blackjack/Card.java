@@ -1,5 +1,7 @@
 package blackjack;
 
+import java.io.File;
+
 import javafx.scene.Parent;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -19,8 +21,9 @@ public class Card extends Parent {
         final Image image;
 
         Suit() {
-            this.image = new Image(Card.class.getResourceAsStream("images/".concat(name().toLowerCase()).concat(".png")),
-                    32, 32, true, true);
+            
+        	this.image = new Image(new File("images/".concat(name().toLowerCase()).concat(".png")).toURI().toString(), 32, 32, true, true);
+        	
         }
     }
 
