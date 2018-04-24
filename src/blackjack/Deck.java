@@ -8,7 +8,6 @@ import blackjack.Card.Suit;
 public class Deck {
 
 	private ArrayList<Card> cards = new ArrayList<Card>();
-    //private Card[] cards = new Card[52];
 
     public Deck() {
         refill();
